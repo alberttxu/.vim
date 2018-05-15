@@ -6,8 +6,8 @@ set clipboard=unnamed "also yank to clipboard"
 "syntax on"
 syntax on
 syntax enable
-let g:solarized_termcolors=256
-colorscheme solarized
+"let g:solarized_termcolors=256
+"colorscheme solarized
 
 filetype indent plugin on
 set tabstop=4
@@ -21,6 +21,7 @@ set backspace=indent,eol,start
 set hlsearch
 set incsearch
 set ignorecase
+set smartcase
 
 "vsp right"
 set splitright
