@@ -2,7 +2,7 @@ execute pathogen#infect()
 
 let python_highlight_all = 1
 
-set mouse=a
+"set mouse=a
 set clipboard=unnamed "also yank to clipboard"
 
 "syntax on"
@@ -25,8 +25,12 @@ set incsearch
 set ignorecase
 set smartcase
 
-"vsp right"
+set splitbelow
 set splitright
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 "add line numbers"
 set nu
