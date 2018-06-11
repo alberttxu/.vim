@@ -9,7 +9,7 @@ set clipboard=unnamed "also yank to clipboard"
 syntax on
 syntax enable
 let g:solarized_termcolors=256
-colorscheme solarized
+"colorscheme solarized
 
 filetype indent plugin on
 set tabstop=4
@@ -46,3 +46,5 @@ cnoreabbrev W w
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+"remove trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
