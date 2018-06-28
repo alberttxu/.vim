@@ -1,7 +1,5 @@
 execute pathogen#infect()
 
-let python_highlight_all = 1
-
 "set mouse=a
 set clipboard=unnamed "also yank to clipboard"
 
@@ -9,7 +7,8 @@ set clipboard=unnamed "also yank to clipboard"
 syntax on
 syntax enable
 let g:solarized_termcolors=256
-"colorscheme solarized
+colorscheme solarized
+set background=light
 
 filetype indent plugin on
 set tabstop=4
