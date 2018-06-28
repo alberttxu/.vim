@@ -7,3 +7,6 @@
 [submodule "/Users/albertxu/.vim/bundle/nerdtree"]
 	path = /Users/albertxu/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "/Users/albertxu/.vim/bundle/nerdtree-git-plugin"]
+	path = /Users/albertxu/.vim/bundle/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
