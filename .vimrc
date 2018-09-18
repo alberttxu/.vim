@@ -16,6 +16,10 @@ set shiftwidth=4
 set smarttab
 set expandtab
 set autoindent
+" indent
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType html       setlocal shiftwidth=2 tabstop=2
+autocmd FileType python     setlocal shiftwidth=4 softtabstop=4 expandtab
 
 set backspace=2
 set backspace=indent,eol,start
@@ -47,3 +51,4 @@ match ExtraWhitespace /\s\+$/
 
 "remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
