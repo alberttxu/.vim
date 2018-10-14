@@ -46,6 +46,9 @@ set nu
 "W save"
 cnoreabbrev W w
 
+"esc
+imap jk <Esc>
+
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
