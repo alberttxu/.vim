@@ -8,7 +8,7 @@ syntax on
 syntax enable
 let g:solarized_termcolors=256
 colorscheme solarized
-set background=light
+set background=dark
 
 filetype indent plugin on
 set tabstop=4
