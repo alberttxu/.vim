@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+let mapleader = "\<Space>"
+
 "set mouse=a
 set clipboard=unnamed "also yank to clipboard"
 
@@ -54,3 +56,9 @@ match ExtraWhitespace /\s\+$/
 "remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+"fzf
+nmap <Leader>l :Lines<CR>
+nmap <Leader>f :GFiles<CR>
+nmap <Leader>F :Files<CR>
+nmap <Leader>b :Buffers<CR>
+nmap <Leader>h :History<CR>
