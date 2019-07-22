@@ -62,3 +62,6 @@ nmap <Leader>f :GFiles<CR>
 nmap <Leader>F :Files<CR>
 nmap <Leader>b :Buffers<CR>
 nmap <Leader>h :History<CR>
+
+"black
+nmap <Leader>k :Black<CR>
