@@ -56,6 +56,10 @@ match ExtraWhitespace /\s\+$/
 "remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+"forward/back buffers
+nmap <Leader>n :bn<CR>
+nmap <Leader>p :bp<CR>
+
 "fzf
 nmap <Leader>l :Lines<CR>
 nmap <Leader>f :GFiles<CR>
