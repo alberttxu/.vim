@@ -35,6 +35,8 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+" delete buffer without closing split
+command Bd bp\|bd \#
 
 "save
 noremap  <silent> <C-S>  :update<CR>
