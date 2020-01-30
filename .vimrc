@@ -71,3 +71,7 @@ nmap <Leader>h :History<CR>
 
 "black
 nmap <Leader>k :Black<CR>
+
+"goyo + limelight
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
