@@ -64,11 +64,11 @@ nmap <Leader>n :bn<CR>
 nmap <Leader>p :bp<CR>
 
 "fzf
-nmap <Leader>l :Lines<CR>
-nmap <Leader>f :Files<CR>
+nmap <Leader>L :Lines<CR>
+nmap <Leader>F :Files<CR>
 nmap <Leader>F :GFiles<CR>
-nmap <Leader>b :Buffers<CR>
-nmap <Leader>h :History<CR>
+nmap <Leader>B :Buffers<CR>
+nmap <Leader>H :History<CR>
 
 "black
 nmap <Leader>k :Black<CR>
