@@ -66,7 +66,6 @@ nmap <Leader>p :bp<CR>
 "fzf
 nmap <Leader>L :Lines<CR>
 nmap <Leader>F :Files<CR>
-nmap <Leader>F :GFiles<CR>
 nmap <Leader>B :Buffers<CR>
 nmap <Leader>H :History<CR>
 
