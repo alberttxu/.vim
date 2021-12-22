@@ -69,6 +69,9 @@ nmap <Leader>F :Files<CR>
 nmap <Leader>B :Buffers<CR>
 nmap <Leader>H :History<CR>
 
+"ripgrep
+nmap <Leader>f :Rg<CR>
+
 "black
 nmap <Leader>k :Black<CR>
 
