@@ -34,3 +34,6 @@
 [submodule "bundle/CamelCaseMotion"]
 	path = bundle/CamelCaseMotion
 	url = https://github.com/bkad/CamelCaseMotion.git
+[submodule "bundle/vim-auto-comment"]
+	path = bundle/vim-auto-comment
+	url = https://github.com/KarimElghamry/vim-auto-comment.git
