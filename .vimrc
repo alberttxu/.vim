@@ -64,13 +64,13 @@ nmap <Leader>n :bn<CR>
 nmap <Leader>p :bp<CR>
 
 "fzf
-nmap <Leader>L :Lines<CR>
-nmap <Leader>F :Files<CR>
+nmap <Leader>l :Lines<CR>
+nmap <Leader>f :Files<CR>
 nmap <Leader>B :Buffers<CR>
 nmap <Leader>H :History<CR>
 
 "ripgrep
-nmap <Leader>f :Rg<CR>
+nmap <Leader>F :Rg<CR>
 
 "black
 nmap <Leader>k :Black<CR>
