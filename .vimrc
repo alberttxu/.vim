@@ -3,6 +3,8 @@ execute pathogen#infect()
 let mapleader = "\<Space>"
 let g:camelcasemotion_key = '<leader>'
 
+set cursorline
+
 "set mouse=a
 set clipboard=unnamed "also yank to clipboard"
 
