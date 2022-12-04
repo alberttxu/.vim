@@ -37,3 +37,6 @@
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "julia-vim"]
+	path = julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim.git
