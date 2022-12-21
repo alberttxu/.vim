@@ -79,3 +79,6 @@ nmap <Leader>k :Black<CR>
 "goyo + limelight
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
+
+" `gf` opens file under cursor in a new vertical split
+nnoremap gf :vertical wincmd f<CR>
