@@ -73,9 +73,6 @@ nmap <Leader>H :History<CR>
 "ripgrep
 nmap <Leader>F :Rg<CR>
 
-"black
-nmap <Leader>k :Black<CR>
-
 "goyo + limelight
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
