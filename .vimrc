@@ -23,6 +23,8 @@ set autoindent
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType html       setlocal shiftwidth=2 tabstop=2
 autocmd FileType python     setlocal shiftwidth=4 softtabstop=4 expandtab
+autocmd FileType c     setlocal shiftwidth=3 softtabstop=3 expandtab
+autocmd FileType cpp     setlocal shiftwidth=3 softtabstop=3 expandtab
 
 set backspace=2
 set backspace=indent,eol,start
@@ -53,6 +55,7 @@ cnoreabbrev W w
 
 "esc
 imap jk <Esc>
+imap kj <Esc>
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
