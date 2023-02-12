@@ -5,7 +5,7 @@ let g:camelcasemotion_key = '<leader>'
 
 set cursorline
 
-"set mouse=a
+set mouse=a
 set clipboard=unnamed "also yank to clipboard"
 
 "syntax on"
