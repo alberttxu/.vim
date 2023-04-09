@@ -14,8 +14,8 @@ syntax enable
 colorscheme solarized
 
 filetype indent plugin on
-set tabstop=4
-set shiftwidth=4
+set tabstop=3
+set shiftwidth=3
 set smarttab
 set expandtab
 set autoindent
@@ -82,3 +82,4 @@ autocmd! User GoyoLeave Limelight!
 
 " `gf` opens file under cursor in a new vertical split
 nnoremap gf :vertical wincmd f<CR>
+
