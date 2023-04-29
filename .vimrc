@@ -51,8 +51,9 @@ inoremap <silent> <C-S>  <C-O>:update<CR>
 "add line numbers"
 set nu
 
-"W save"
 cnoreabbrev W w
+cnoreabbrev Q q
+cnoreabbrev X x
 
 "esc
 imap jk <Esc>
