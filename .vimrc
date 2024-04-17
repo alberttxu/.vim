@@ -3,6 +3,9 @@ execute pathogen#infect()
 let mapleader = "\<Space>"
 let g:camelcasemotion_key = '<leader>'
 
+set wrap
+set linebreak
+
 set cursorline
 
 set mouse=a
@@ -85,3 +88,5 @@ autocmd! User GoyoLeave Limelight!
 " `gf` opens file under cursor in a new vertical split
 nnoremap gf :vertical wincmd f<CR>
 
+" vim-comment
+autocmd FileType c,cpp,cs,java setlocal commentstring=//\ %s

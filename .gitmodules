@@ -43,3 +43,9 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = https://tpope.io/vim/commentary.git
+[submodule "bundle/julia-vim"]
+	path = bundle/julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim.git
+[submodule "bundle/vim-exchange"]
+	path = bundle/vim-exchange
+	url = https://github.com/tommcdo/vim-exchange.git
