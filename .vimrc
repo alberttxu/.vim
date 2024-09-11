@@ -90,3 +90,5 @@ nnoremap gf :vertical wincmd f<CR>
 
 " vim-comment
 autocmd FileType c,cpp,cs,java setlocal commentstring=//\ %s
+
+set secure exrc
