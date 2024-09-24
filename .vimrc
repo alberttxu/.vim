@@ -92,3 +92,5 @@ nnoremap gf :vertical wincmd f<CR>
 autocmd FileType c,cpp,cs,java setlocal commentstring=//\ %s
 
 set secure exrc
+
+let g:julia_set_indentation = 0
