@@ -14,6 +14,7 @@ set clipboard=unnamed "also yank to clipboard"
 "syntax on"
 syntax on
 syntax enable
+" set termguicolors
 colorscheme solarized
 set background=light
 
@@ -96,7 +97,9 @@ set secure exrc
 
 let g:julia_set_indentation = 0
 
-set guifont=Cascadia\ Code:h13
+" set guifont=Cascadia\ Code:h13
+" set guifont=Menlo:h13
+set guifont=Menlo:h13:b
 
 let g:localvimrc_sandbox=0
 let g:localvimrc_ask=0
@@ -120,3 +123,6 @@ let g:fzf_colors =
 " ctrl-v paste
 imap <C-S-V> <C-R>+
 cmap <C-S-V> <C-R>+
+
+set ff=unix
+set ffs=unix
